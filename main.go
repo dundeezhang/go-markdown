@@ -22,8 +22,5 @@ func main() {
 
 	// Parse markdown file and convert to HTML
 	html := ParseMarkdownFile(filename)
-
-	fmt.Println("HTML Output:")
-	fmt.Println("============")
 	fmt.Println(html)
 }
